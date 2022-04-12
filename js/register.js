@@ -37,7 +37,7 @@
                 loginPwd
             }
         })
-        res && window.location.replace('../2/index.html')
+        res && window.location.replace(baseUrl + 'index.html')
     }
 
     // 验证表单函数

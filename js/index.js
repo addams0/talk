@@ -151,6 +151,6 @@
         // 清空sessionStorage
         sessionStorage.removeItem('token');
         // 界面跳转
-        window.location.replace('../2/login.html')
+        window.location.replace(baseUrl + 'login.html')
     })
 })() 
